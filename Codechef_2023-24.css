@@ -1,0 +1,205 @@
+
+
+.custom-list {
+    list-style-type: none;
+    padding: 0;
+    text-align:left;
+    padding: 20px;
+  }
+
+.frame {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    background-color: #fafaff;
+}
+
+ .cp {
+    width: 100%;
+}
+
+.hd {
+    width: 100%;
+    z-index: 0;
+    cursor: auto;
+}
+
+
+.img {
+    pointer-events: none;
+}
+.h {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+
+.s1 {
+    position: absolute;
+    z-index: 10;
+    top: -100px;
+    right: 10%;
+    transform: rotate(180deg);
+}
+
+ .s2 {
+    position: absolute;
+    z-index: 10;
+    top: 0%;
+    left: 5%;
+    transform: rotate(180deg);
+}
+
+.db1 {
+    top: 20%;
+    right: 5%;
+    transform: rotate(-40deg);
+    position: absolute;
+    z-index: 10;
+}
+
+.db2 {
+    bottom: 30%;
+    right: 3%;
+    transform: rotate(60deg);
+    position: absolute;
+    z-index: 10;
+}
+.custom-list li::before {
+    content: "✓";
+    font-weight: bold;
+    font-size: 20px;
+    color: lime; /* Optional: Set the color of the text */
+  }
+.fl {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    transform: rotate(180deg);
+}
+ .cpara {
+    width: 80%;
+    font-size: 23px;
+    letter-spacing: 0.7px;
+    word-spacing: 1px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.cp {
+    width: 980px;
+    margin: 20px auto 20px;
+    padding: 30px 0px;
+    position: relative;
+    background-color: #f9f9ff;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.chead {
+    width: 100%;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cpara {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 23px;
+    letter-spacing: 0.7px;
+    word-spacing: 1px;
+}
+
+
+.btn {
+    background-color: rgb(146, 119, 243);
+    color: black;
+    padding: auto;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center; 
+  }
+
+  .success {
+    border-color: #000000;
+    border-width: 1.5px;
+    color: rgb(0, 0, 0);}
+.clist, .colist {
+    flex-wrap: wrap;
+}
+
+.colist-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.p-content {
+    width: calc(100% - 500px);
+    min-width: 400px;
+}
+
+.p-content .c-heading {
+    width: 100%;
+    font-size: 25px;
+    opacity: 0.9;
+    padding: 0 10px;
+}
+
+.p-content ul {
+    padding: 10px;
+}
+
+.p-content ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+.path {
+    width: 100%;
+    padding: 40px 25px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* extra work*/
+
+@media screen and (max-width: 950px) {   /* for tablets*/
+    .cp {
+        width: 600px;
+    }
+    .p-content {
+        min-width: 500px;
+    }
+}
+
+@media screen and (max-width: 650px) { /* for mobile */
+    .cp {
+        width: 360px;
+    }
+    .p-content {
+        padding: 0 6px;
+        min-width: 300px;
+    }
+    .cp {
+        width: 340px;
+    }
+    .h,.p-content .c-heading,.chead,.h {
+        font-size: 10px;
+    }
+    .p-content ul li,.p-para,.cara {
+        font-size: 10px;
+    }
+    .fl {
+        width: 40px;
+    }
+    .cright-section {
+        height: 200px;
+    }
+    .cright-line {
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+}
