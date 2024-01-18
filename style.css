@@ -175,7 +175,7 @@
         width: 600px;
     }
     .pic {
-        max-width: 560px;
+        max-width: 500px;
          max-height: auto;
     }
     .p-content {
@@ -195,7 +195,7 @@
         width: 340px;
     }
     .pic {
-        max-width: 300px;
+        max-width: 200px;
         max-height: auto;
     }
     .h,.p-content .c-heading,.chead,.h {
