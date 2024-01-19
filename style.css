@@ -112,21 +112,6 @@
          max-height: auto;
     }
 
-.chead {
-    width: 100%;
-    margin: auto;
-    font-size: 25px;
-    text-align: center;
-}
-
-.cpara {
-    width: 80%;
-    margin: 0 auto;
-    font-size: 23px;
-    letter-spacing: 0.7px;
-    word-spacing: 1px;
-}
-
 .button-section {
     width: 100%;
     text-align: center;
@@ -208,10 +193,10 @@
         max-width: 60%;
         max-height: auto;
     }
-    .h,.p-content .c-heading,.chead, .p {
+    .h,.p-content .c-heading, .p {
         font-size: 10px;
     }
-    .p-content ul li,.p-para,.cara {
+    .p-content ul li,.p-para, {
         font-size: 10px;
     }
     .fl {
