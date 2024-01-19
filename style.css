@@ -118,20 +118,21 @@
     word-spacing: 1px;
 }
 
+.button-section {
+    width: 100%;
+    text-align: center;
+    
+     /* Center align the content */
+}
 
-.btn {
-    background-color: rgb(146, 119, 243);
-    color: black;
-    padding: auto;
+.try-now-btn {
+    padding: auto auto; /* Adjust the padding as needed */
     font-size: 16px;
-    cursor: pointer;
-    text-align: center; 
-  }
+    background-color: rgb(146, 119, 243);
+    border-radius: 5%;
+    cursor: pointer; 
+}
 
-  .success {
-    border-color: #000000;
-    border-width: 1.5px;
-    color: rgb(0, 0, 0);}
 .clist, .colist {
     flex-wrap: wrap;
 }
