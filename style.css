@@ -35,7 +35,16 @@
     position: relative;
     top: -25px;
 }
-
+.p{
+    align-content: center;
+    font-size: auto;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin: auto auto;
+    text-align: center; 
+    width: 70%;
+    align-content: center;
+}
 .s1 {
     position: absolute;
     z-index: 10;
@@ -199,7 +208,7 @@
         max-width: 60%;
         max-height: auto;
     }
-    .h,.p-content .c-heading,.chead,.h {
+    .h,.p-content .c-heading,.chead, .p {
         font-size: 10px;
     }
     .p-content ul li,.p-para,.cara {
